@@ -1,0 +1,27 @@
+{
+  "name": "cdk-asl-extractor",
+  "version": "1.0.0",
+  "description": "Convert your CDK state machine to an ASL file",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanagez/cdk-asl-extractor.git"
+  },
+  "keywords": [
+    "asl",
+    "cdk",
+    "cloudformation"
+  ],
+  "author": "Nathan AGEZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanagez/cdk-asl-extractor/issues"
+  },
+  "homepage": "https://github.com/nathanagez/cdk-asl-extractor#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
