@@ -1,5 +1,5 @@
 # AWS CDK state machine to ASL definition 🔥
-Convert your CDK state machine to an ASL file.
+Convert your AWS CDK state machine to an ASL file.
 
 This tool only works with synthesized AWS CDK's CloudFormation stacks.
 
