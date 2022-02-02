@@ -8,6 +8,10 @@ It parses the `DefinitionString` property of a `AWS::StepFunctions::StateMachine
 Don't forget to star ⭐
 
 ### How to use ? 🧑‍🏫
+```
+npm install -g cdk-asl-extractor
+```
+
 Synthesize your AWS CloudFormation template
 ```
 cdk synth
@@ -15,12 +19,12 @@ cdk synth
 
 Locate the synthesized CloudFormation template (inside `cdk.out` directory) and generate the ASL definition.
 ```sh
-node ./index.js <path-to-your-cloudformation-json-file>
+cdk-asl-extractor <path-to-your-cloudformation-json-file>
 ```
 
 Example with the sample CloudFormation stack
 ```sh
-node ./index.js ./tests/sample-cloudformation.json
+cdk-asl-extractor ./tests/sample-cloudformation.json
 ```
 
 ### Tests 🧪

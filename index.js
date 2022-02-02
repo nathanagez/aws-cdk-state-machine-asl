@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require('fs');
 const {getPathFromArgs, createResourceArray, isStateMachineResource} = require("./utils");
 const {fnJoin} = require("./parser");

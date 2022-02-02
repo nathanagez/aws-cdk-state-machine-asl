@@ -1,0 +1,4 @@
+tests/
+*.txt
+.idea/
+.github/
