@@ -1,7 +1,7 @@
-# CDK state machine to ASL definition 🔥
+# AWS CDK state machine to ASL definition 🔥
 Convert your CDK state machine to an ASL file.
 
-This tool only works with synthesized CDK's CloudFormation stacks.
+This tool only works with synthesized AWS CDK's CloudFormation stacks.
 
 It parses the `DefinitionString` property of a `AWS::StepFunctions::StateMachine`, resolves intrinsic functions and generate an ASL definition file. 
 
