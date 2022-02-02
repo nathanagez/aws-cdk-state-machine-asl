@@ -63,9 +63,9 @@ describe('isStateMachineResource', () => {
 
 describe('createResourceArray', () => {
     it('Should return an array of State Machine resources', () => {
-        const cfStackJson = JSON.parse(fs.readFileSync(path.join(__dirname, './sample-cloudformation.json'), 'utf-8'));
+        const cfnStackJson = JSON.parse(fs.readFileSync(path.join(__dirname, './sample-cloudformation.json'), 'utf-8'));
 
-        const result = createResourceArray(cfStackJson, isStateMachineResource)
+        const result = createResourceArray(cfnStackJson, isStateMachineResource)
 
         expect(result.length).toEqual(2)
         expect(result[0]).toHaveProperty('Properties.DefinitionString')
