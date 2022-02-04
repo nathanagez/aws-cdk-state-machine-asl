@@ -10,7 +10,7 @@ const fnGetAtt = (expression) => {
 const resolveExpressions = (expressions) => {
     const intrinsicFunctions = [
         {
-            templateName: 'Ref', resolver: (value) => value
+            templateName: 'Ref', resolver: () => 'aws'
         },
         {
             templateName: 'Fn::GetAtt', resolver: fnGetAtt
