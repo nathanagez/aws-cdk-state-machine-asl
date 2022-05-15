@@ -4,7 +4,7 @@ const fnJoin = (expression) => {
 }
 
 const fnGetAtt = (expression) => {
-    return expression.join('', expression)
+    return expression[1] && expression[1] === 'Arn' ? expression[0] : expression.join('', expression)
 }
 
 const resolveExpressions = (expressions) => {
