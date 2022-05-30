@@ -1,6 +1,6 @@
 {
   "name": "cdk-asl-extractor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert your CDK state machine to an ASL file",
   "main": "index.js",
   "scripts": {
